@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/IDEA-CCNL/Fengshenbang-LM.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[submodule "fengshen/data/fs_datasets"]
+	active = true
+	url = git@github.com:IDEA-CCNL/fs_datasets.git
